@@ -1,11 +1,9 @@
 bookdown::bs4_book:
   theme: 
-    bg: "#002b36"
-    fg: "#eee8d5"
-    primary: "#2aa198"
+    bootswatch: darkly
   repo: https://github.com/hadley/adv-r
-  includes:
-    in_header: [ga_script.html]
+  #includes:
+    #in_header: [ga_script.html]
 
 bookdown::gitbook:
   includes:
