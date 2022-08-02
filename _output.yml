@@ -1,6 +1,8 @@
 bookdown::bs4_book:
-  theme:
-    primary: "#544154"
+  theme: 
+    bg: "#002b36"
+    fg: "#eee8d5"
+    primary: "#2aa198"
   repo: https://github.com/hadley/adv-r
   includes:
     in_header: [ga_script.html]
